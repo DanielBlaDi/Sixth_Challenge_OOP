@@ -123,6 +123,8 @@ equilateral triangle, scalene triangle, TriRectangle, other figure")
   except IndexError as error:
     print(f"Error: {error}")
 
+
   except UserError as error:
     print(f"Error: {error}")
+
 

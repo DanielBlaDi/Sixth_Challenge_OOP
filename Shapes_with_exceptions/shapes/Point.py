@@ -5,6 +5,12 @@ class Point:
     self.__x = x
     self.__y = y
 
+  def __eq__(self, other_point):
+    return self.__x == other_point.__x and self.__y == other_point.__y
+
+  def __repr__(self):
+    return f"({self.__x}, {self.__y})"
+
   def compute_distance(self, point) -> float:
     """
     The function `compute_distance` calculates the distance between two points in a two-dimensional space.
@@ -55,3 +61,6 @@ class Point:
 
   def get_y(self):
     return self.__y
+
+
+
