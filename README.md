@@ -74,7 +74,7 @@ def is_number(x):
 We add some exceptions in this package, the new exceptions made:
 
 
-1. The user can't enter strings in the program where it doest't correspond
+1. The user can't enter strings in the program where it doesn't correspond
 
 
 2. We created an own exception that appers when the user add more than two times the same vertex, this stop the program 
