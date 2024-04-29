@@ -120,8 +120,6 @@ equilateral triangle, scalene triangle, TriRectangle, other figure")
     print(
         "Invalid input, you should write numbers as integer or float not as strings"
     )
-  except IndexError as error:
-    print(f"Error: {error}")
 
 
   except UserError as error:
